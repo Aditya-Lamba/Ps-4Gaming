@@ -26,28 +26,23 @@ p{
   color:blue;
 }
 .menu {
-    text-align: center;
-    list-style: none;
     font-family: cursive;
-    position: absolute;
-    top: 10px;
-    right: 30px;
-    z-index:10;
-    cursor: pointer;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
 }
 .links{
-    float: left;
-    color: blue;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 25px;
     font-family: cursive;
     font-size: 20px;
     }
 .links:hover{
-    background-color: yellow;
-}
+    font-size: 25px;
+    text-decoration: underline;
+} 
 iframe{
     width: 100%;
     height: 700px;
